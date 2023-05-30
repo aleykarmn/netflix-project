@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #141414;
+    overflow-x: hidden;
+}
+img{
+    cursor: pointer;
+}
+.navbar{
+    background: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 100%;
+    height: 82px;
+}
+.navbar-last-episode div:hover{
+    cursor: pointer;
+    color: rgba(225, 225, 231, 0.87);
+}
+.options{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.nav-ikon{
+    width: 25px;
+    height: 25px;
+}
+.navbar-photo{
+    width: 32px;
+    height: 32px;
+}
+.navbar-last-episode{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+.options a:hover{
+    cursor: pointer;
+    text-decoration: underline 1px white;
+}
+.nav-end-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4px;
+}
+.yanımda-kal-pic{
+    width: 100%;
+    height: 713px;
+    position: absolute;
+}
+.movie-name{
+    z-index: 11;
+    position: relative;
+    top: 194px;
+    width: 335px;
+    left: 60px;
+    border: none;
+}
+.middle-text{
+    position: relative;
+    z-index: 9999;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    top: 189px;
+    padding: 21px 33px;
+}
+.top-10{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.movie-subject{
+    width: 35%;
+}
+.movie-subject p{
+    font-size: 17px;
+}
+.top-10 span{
+    font-weight: 500;
+    font-size: 22px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 14px;
+    width: 104px;
+    height: 40px;
+    column-gap: 6px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+}
+.btn-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 14px;
+    width: 164px;
+    height: 40px;
+    column-gap: 8px;
+    border: none;
+    border-radius: 4px;
+    background: #ffffff4d;
+    color: white;
+    cursor: pointer;
+}
+.btn-ikon{
+    width: 20px;
+    height: 20px;
+}
+.popular-movies{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.netflix-popular{
+    width: 100%;
+    position: relative;
+    top: 182px;
+}
+.popular-photo{
+    width: 269px;
+}
+.popular-span{
+    color: white;
+}
+.netflix-popular{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 12px 0 12px 31px;x
+}
+/*.popular-movies-photos{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7px;
+}*/
+.continue-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 181px;
+    padding-left: 31px;
+}
+.continue{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.continue-span{
+    color: white;
+}
+.agenda-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.agenda{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.agenda-span{
+    color: white;
+}
+.netflix-original-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.original{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.original-span{
+    color: white;
+}
+.turkey-top-10-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.turkey-top-10{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.turkey-top-span{
+    color: white;
+}
+.watch-again-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.watch-again{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.watch-span{
+    color: white;
+}
+.my-list-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.my-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.list-span{
+    color: white;
+}
+
+.ikons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+.informations{
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+}
+
+.informations-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: gray;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    width: 285px !important;
+    height: 160px !important;
+    background: transparent;
+}
+.swiper-slide img{
+    object-fit: fill;
+    width: 100%;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: rgba(169, 164, 164, 0.75) !important;
+}
+.mySwiper-4 .swiper-slide{
+    height: 575px !important;
+    background: transparent;
+}
+.mySwiper-5 .swiper-slide{/*netflix figma tasarımı açarmsıın*/
+    height:205px !important;
+    background: transparent;
+}

@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Comme', sans-serif;
+    background: black;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.photo{
+    width: 180px;
+    height: 180px;
+}
+.text{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 81.73px;
+}
+
+.middle-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+.text span{
+    color: white;
+}
+.boxes span{
+    color: grey;
+}
+
+.netflix-logo{
+    padding: 15px;
+}
+
+.profile-manage{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px gray;
+    padding: 11px;
+    width: 220px;
+    font-size: 17px;
+}

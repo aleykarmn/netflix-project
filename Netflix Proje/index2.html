@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <title>Netflix</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comme:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Dancing+Script:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/swiper/swiper.min.css">
+</head>
+<body>
+<section class="main-container container">
+  <div class="navbar">
+    <div class="netflix-logo">
+      <img src="assets/image/NetflixLogoSvg.png" height="30" width="111"/>
+    </div>
+    <div class="options">
+      <a>Ana Sayfa</a>
+      <a>Diziler</a>
+      <a>Filmler</a>
+      <a>Yeni ve Popüler</a>
+      <a>Listem</a>
+    </div>
+    <div class="navbar-last-episode">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav-ikon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>
+      </div>
+      <div>
+        <span>Çocuk</span>
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav-ikon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+      </svg>
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="nav-ikon">
+        <path fill-rule="evenodd" d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z" clip-rule="evenodd" />
+      </svg>
+      </div>
+      <div class="nav-end-div">
+        <img class="navbar-photo" src="assets/image/ProfilePicture3.png" height="200" width="200"/>
+        <svg class="nav-ikon-ok" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.92907 7.07973L13.968 0.645906C13.9838 0.633879 13.9946 0.616512 13.9985 0.59707C14.0023 0.577628 13.9989 0.557451 13.9889 0.540332C13.9789 0.523213 13.963 0.510332 13.9442 0.50411C13.9254 0.497888 13.905 0.498754 13.8867 0.506546H0.113253C0.0950305 0.498754 0.0745892 0.497888 0.0557726 0.50411C0.0369559 0.510332 0.0210601 0.523213 0.011074 0.540332C0.001088 0.557451 -0.0023004 0.577628 0.00154573 0.59707C0.00539187 0.616512 0.0162077 0.633879 0.0319596 0.645906L6.07093 7.07973C6.19034 7.20627 6.33434 7.30707 6.4941 7.37597C6.65386 7.44487 6.82602 7.48041 7 7.48041C7.17398 7.48041 7.34614 7.44487 7.5059 7.37597C7.66566 7.30707 7.80966 7.20627 7.92907 7.07973Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="yanımda-kal-div">
+      <img class="yanımda-kal-pic" src="assets/image/yanımda-kal-pic.png" height="700" width="16"/>
+    </div>
+    <div>
+      <img class="movie-name" src="assets/image/MovieName.png" height="115" width="408"/>
+    </div>
+    <div class="middle-text">
+      <div class="top-10">
+        <img src="assets/image/Top10Badge.png" height="32" width="32"/>
+        <span>Türkiye'de Bugün 4 Numara</span>
+      </div>
+      <div class="movie-subject">
+        <p>
+          Küçük yaşta başının çaresine bakmayı öğrenen ve çok çalışarak iş dünyasında önemli bir
+          konuma gelen Emir,bir gün sokak şarkıcısı bir kızla karşılaşır ve hayatı değişir.
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="btn-ikon">
+            <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+          </svg>
+          Oynat
+        </button>
+        <button class="btn-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-ikon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+          </svg>
+          Daha Fazla Bilgi
+        </button>
+      </div>
+    </div>
+    <div class="netflix-popular">
+      <div class="popular-movies">
+        <span class="popular-span">Netflix'te Popüler</span>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="popular-movies-photos swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="popular-img" src="assets/image/MovieHorizontalCard.png" height="171" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="popular-img" src="assets/image/MoviePoster.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="popular-img" src="assets/image/MoviePoster3.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="popular-img" src="assets/image/MoviePoster4.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img class="popular-img-son" src="assets/image/matrix.png" height="160" width="220"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="continue-section">
+      <div>
+        <span class="continue-span">Kemal, İzlemeye devam et</span>
+      </div>
+      <div class="swiper mySwiper-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/brooklyn-nine.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/gınny-georgia-1.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/inancın-hikayesi.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/snowpiercer.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/sosyalikilemm.png" height="160" width="220"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="agenda-section">
+      <div>
+        <span class="agenda-span">Gündemdekiler, İzlemeye devam et</span>
+      </div>
+      <div class="swiper mySwiper-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/MovieHorizontalCard.png" height="171" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/lupin.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/MoviePoster.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/yanımda-kal.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/ı-care-a.png" height="160" width="220"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="netflix-original-section">
+      <div>
+        <span class="original-span">Netflix Orijinal İçerikleri</span>
+      </div>
+      <div class="swiper mySwiper-4">
+        <div class="original swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/anne.png" height="575" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/gınny-georgia.png" height="575" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/50m2.png" height="575" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/trıbes.png" height="575" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/ı-care-a-lotPoster.png" height="575" width="220"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="turkey-top-10-section">
+      <div>
+        <span class="turkey-top-span">Türkiye'de Bugünün Top 10 Listesi</span>
+      </div>
+      <div class="swiper mySwiper-5"> <!--bu myswipermı düz yok numara verelm-->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/RankCard.png" height="206" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/RankCard2.png" height="206" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/RankCard3.png" height="206" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/RankCard4.png" height="206" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/RankCard5.png" height="206" width="220"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="watch-again-section">
+      <div>
+        <span class="watch-span">Yeniden İzle</span>
+      </div>
+      <div class="swiper mySwiper-6">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/how-ı-met-your.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/harry-potter.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/rick-morty.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/musder.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/outlanderr.png" height="171" width="285"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="my-list-section">
+      <div>
+        <span class="list-span">Listem</span>
+      </div>
+      <div class="swiper mySwiper-7">
+        <div class="my-list swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/the-witcher.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/eglencli-tarih.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/orphan-black.png" height="171" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/sir.png" height="160" width="285"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/image/davinci-sifresi.png" height="168" width="224"/>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="footer-div">
+        <div class="ikons">
+          <div>
+            <svg class="footer-ikon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.7691 0H2.2309C1.2749 0 0.5 0.774902 0.5 1.7309V22.2691C0.5 23.2251 1.2749 24 2.2309 24H13.3203V14.7188H10.2031V11.0859H13.3203V8.41241C13.3203 5.31207 15.2131 3.62457 17.9787 3.62457C19.3033 3.62457 20.4417 3.72327 20.7734 3.7674V7.00781H18.8664C17.3616 7.00781 17.0703 7.72284 17.0703 8.77222V11.0859H20.668L20.1992 14.7188H17.0703V24H22.7691C23.7251 24 24.5 23.2251 24.5 22.2691V1.7309C24.5 0.774902 23.7251 0 22.7691 0V0Z" fill="#808080"/>
+            </svg>
+          </div>
+          <div>
+            <svg class="footer-ikon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5949 0.906398C22.9907 0.302041 22.2667 0 21.4232 0H3.57924C2.73545 0 2.01162 0.302151 1.40726 0.906398C0.803018 1.51048 0.500977 2.23442 0.500977 3.07804V20.9218C0.500977 21.7653 0.802963 22.4894 1.40726 23.0935C2.01162 23.6977 2.73561 24 3.57924 24H21.4229C22.2663 24 22.9905 23.6977 23.5947 23.0935C24.1991 22.4894 24.5009 21.7653 24.5009 20.9218V3.07804C24.5008 2.23425 24.1991 1.5107 23.5949 0.906398ZM9.11843 8.64832C10.0611 7.737 11.1939 7.28112 12.5168 7.28112C13.85 7.28112 14.988 7.737 15.9308 8.64832C16.8737 9.55981 17.3448 10.6615 17.3448 11.9531C17.3448 13.2446 16.8737 14.3463 15.9308 15.2575C14.988 16.1692 13.8504 16.625 12.5168 16.625C11.194 16.625 10.0612 16.1688 9.11843 15.2575C8.17558 14.3462 7.70422 13.2446 7.70422 11.9531C7.70422 10.6615 8.17558 9.55986 9.11843 8.64832ZM21.7825 20.2814C21.7825 20.5521 21.6885 20.7785 21.5012 20.9609C21.3133 21.1432 21.0897 21.2343 20.829 21.2343H4.12618C3.85539 21.2343 3.62866 21.1432 3.44652 20.9609C3.26412 20.7789 3.17299 20.5521 3.17299 20.2814V10.1561H5.37605C5.16781 10.8124 5.06367 11.4948 5.06367 12.203C5.06367 14.2034 5.79275 15.9089 7.25107 17.3206C8.70956 18.7318 10.4647 19.4377 12.5168 19.4377C13.871 19.4377 15.1209 19.1147 16.2671 18.4689C17.4129 17.8227 18.3186 16.9453 18.9858 15.8359C19.6525 14.7264 19.9858 13.5154 19.9858 12.203C19.9858 11.4949 19.8813 10.8126 19.6731 10.1561H21.7827V20.2815H21.7825V20.2814ZM21.7825 6.32793C21.7825 6.63002 21.6784 6.88527 21.4697 7.09357C21.2615 7.30202 21.0064 7.40611 20.7041 7.40611H17.9855C17.6836 7.40611 17.4281 7.30197 17.2199 7.09357C17.0116 6.88527 16.9075 6.63002 16.9075 6.32793V3.75004C16.9075 3.45834 17.0116 3.20578 17.2199 2.99217C17.4282 2.77868 17.6836 2.6718 17.9855 2.6718H20.7041C21.0064 2.6718 21.2615 2.77863 21.4697 2.99217C21.6783 3.20578 21.7825 3.45834 21.7825 3.75004V6.32793Z" fill="#808080"/>
+            </svg>
+          </div>
+          <div>
+            <svg class="footer-ikon" width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24.5 2.5585C23.6075 2.95 22.6565 3.2095 21.665 3.3355C22.685 2.7265 23.4635 1.7695 23.8295 0.616C22.8785 1.183 21.8285 1.5835 20.7095 1.807C19.8065 0.8455 18.5195 0.25 17.1155 0.25C14.3915 0.25 12.1985 2.461 12.1985 5.1715C12.1985 5.5615 12.2315 5.9365 12.3125 6.2935C8.222 6.094 4.6025 4.1335 2.171 1.147C1.7465 1.8835 1.4975 2.7265 1.4975 3.634C1.4975 5.338 2.375 6.8485 3.683 7.723C2.8925 7.708 2.117 7.4785 1.46 7.117C1.46 7.132 1.46 7.1515 1.46 7.171C1.46 9.562 3.1655 11.548 5.402 12.0055C5.0015 12.115 4.565 12.1675 4.112 12.1675C3.797 12.1675 3.479 12.1495 3.1805 12.0835C3.818 14.032 5.627 15.4645 7.778 15.511C6.104 16.8205 3.9785 17.6095 1.6775 17.6095C1.274 17.6095 0.887 17.5915 0.5 17.542C2.6795 18.9475 5.2625 19.75 8.048 19.75C17.102 19.75 22.052 12.25 22.052 5.749C22.052 5.5315 22.0445 5.3215 22.034 5.113C23.0105 4.42 23.831 3.5545 24.5 2.5585Z" fill="#808080"/>
+            </svg>
+          </div>
+          <div>
+            <svg class="footer-ikon" width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.48 2.34C22.829 1.182 22.1225 0.969 20.684 0.888C19.247 0.7905 15.6335 0.75 12.503 0.75C9.3665 0.75 5.7515 0.7905 4.316 0.8865C2.8805 0.969 2.1725 1.1805 1.5155 2.34C0.845 3.4965 0.5 5.4885 0.5 8.9955C0.5 8.9985 0.5 9 0.5 9C0.5 9.003 0.5 9.0045 0.5 9.0045V9.0075C0.5 12.4995 0.845 14.5065 1.5155 15.651C2.1725 16.809 2.879 17.019 4.3145 17.1165C5.7515 17.2005 9.3665 17.25 12.503 17.25C15.6335 17.25 19.247 17.2005 20.6855 17.118C22.124 17.0205 22.8305 16.8105 23.4815 15.6525C24.158 14.508 24.5 12.501 24.5 9.009C24.5 9.009 24.5 9.0045 24.5 9.0015C24.5 9.0015 24.5 8.9985 24.5 8.997C24.5 5.4885 24.158 3.4965 23.48 2.34ZM9.5 13.5V4.5L17 9L9.5 13.5Z" fill="#808080"/>
+            </svg>
+          </div>
+        </div>
+        <div class="informations">
+          <div class="informations-section">
+            <span>Seslendirme ve Alt Yazı</span>
+            <span>Medya Merkezi</span>
+            <span>Gizlilik</span>
+            <span>Bize Ulşaın</span>
+          </div>
+          <div class="informations-section">
+            <span>Sesli Betimleme</span>
+            <span>Yatırımcı İlişkileri</span>
+            <span>Yasal Hükümler</span>
+          </div>
+          <div class="informations-section">
+            <span>Yardım Merkezi</span>
+            <span>İş İmkanları</span>
+            <span>Çerez Tercihleri</span>
+          </div>
+          <div class="informations-section">
+            <span>Hediye Kartları</span>
+            <span>Kullanım Koşulları</span>
+            <span>Kurumsal Bilgiler</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</section>
+<script src="assets/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
